@@ -1,4 +1,10 @@
-package main;
+/*
+* Stenography PGM
+* @author Paulo R. Almeida Filho
+* @email palmeidaprogramming@gmail.com
+*/
+
+package com.github.palmeidaprog.stagpgm.main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +16,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
